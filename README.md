@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# 시계열 차트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+chart.js 를 활용한 시계열 차트 구현 프로젝트
 
-## Available Scripts
+## 배포 링크
 
-In the project directory, you can run:
 
-### `npm start`
+## 실행 방법
+```
+npm install
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 사용 기술 스택
+- typescript
+- react
+- Chart.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Chart.js 사용 이유
+- HTML5 canvas에서 차트 요소를 렌더링해서 다른 라이브러리보다 뛰어난 성능
+- canvas 렌더링을 통해 DOM 트리의 비용 절감 가능
+- 차트 라이브러리 중 가장 많이 다운로드됨
+- 
 
-### `npm test`
+## UI
+필터링 전
+<img width="812" alt="image" src="https://github.com/nuri1042/time-series-chart/assets/19181088/114d08cd-91bd-4fc4-bcb1-814171e6d92c">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+필터링 후
+<img width="795" alt="image" src="https://github.com/nuri1042/time-series-chart/assets/19181088/02ce4c98-2c85-48cd-8968-60f26f6c3168">
